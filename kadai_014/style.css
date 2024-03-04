@@ -1,0 +1,45 @@
+body{
+  /* body要素フォント種類を、「"Arial", "Meiryo", sans-serif」にする */
+  font-family: "Arial", "Meiryo", sans-serif;
+  
+  /* 全体を中央寄せにする */
+  text-align: center;
+}
+
+html{
+  /* ルート要素のフォントサイズを20pxにする */
+  font-size: 20px;
+}
+
+h1{
+  /* h1要素のフォント種類を「Josefin Sans」にする */
+  font-family: sans-serif;
+
+  /* h1要素のフォントサイズをルート要素の2倍にする */
+  font-size: 2rem;
+
+  /* h1のフォントをJosefin Sansにする */
+  font-family: "Josefin Sans", sans-serif;
+
+  /* 文字間を文字サイズの1.2倍にする */
+  letter-spacing: 1.2em;
+
+  /* 影をつける */
+  text-shadow: 2px 2px 4px gray;
+
+  /* 3px（カラー：rgb(115, 115, 114)）の下線を付ける */
+  border-bottom: solid 3px;
+  color: rgb(115, 115, 114);
+}
+
+.skyblue{
+  color: skyblue;
+}
+
+.pink{
+  color: rgb(255, 192, 203);
+}
+
+#parent p{
+  font-weight: bold;
+}
